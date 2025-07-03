@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ae as h}from"./chunks/framework.Dgg8-8ov.js";const g=JSON.parse('{"title":"CLI Usage","description":"","frontmatter":{},"headers":[],"relativePath":"cli.md","filePath":"cli.md"}'),k={name:"cli.md"};function l(t,s,p,F,e,r){return n(),a("div",null,s[0]||(s[0]=[h("",5)]))}const y=i(k,[["render",l]]);export{g as __pageData,y as default};

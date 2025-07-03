@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ae as t}from"./chunks/framework.Dgg8-8ov.js";const g=JSON.parse('{"title":"React Usage","description":"","frontmatter":{},"headers":[],"relativePath":"react.md","filePath":"react.md"}'),h={name:"react.md"};function k(l,s,e,p,r,E){return n(),a("div",null,s[0]||(s[0]=[t("",6)]))}const y=i(h,[["render",k]]);export{g as __pageData,y as default};
