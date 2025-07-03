@@ -138,4 +138,3 @@ Works on Node ≥16, browsers, and SSR
 
 ### 🪪 License
 MIT © SirKitts
-

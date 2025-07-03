@@ -31,17 +31,17 @@ Show evaluation steps and context
 
 Or run the CLI directly:
 
+```
 npx show-feature --key=weekday
+```
 
-Demo & Playground
+### Demo & Playground
 
 Try out live component toggles and test "what if it were Friday at 9 AM?" in the 
 
-
-Framework Usage
+### Framework Usage
 
 HTML/WEB Component
 Vue Hook + Wrapper
 React Hook + Wrapper
 CLI Usage
-
