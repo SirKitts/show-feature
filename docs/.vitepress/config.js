@@ -1,4 +1,5 @@
 export default {
+  base: '/show-feature/', // 👈 Add this line
   title: 'Show Feature',
   description: 'Smart feature toggling for CLI, Vue, React, and Web Components',
   themeConfig: {
