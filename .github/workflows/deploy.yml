@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -22,6 +25,9 @@ jobs:
 
       - name: 🛠 Build project
         run: npm run build
+
+      - name: 🪄 Add .nojekyll file
+        run: echo "" > dist/.nojekyll
 
       - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
