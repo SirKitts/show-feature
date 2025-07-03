@@ -1,0 +1,49 @@
+{
+  "name": "@sirkitts/show-feature",
+  "version": "1.0.0",
+  "description": "Frontend-ready feature toggler for date ranges, time-based keywords, and dayparts — via CLI, web, Vue, or React.",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "exports": {
+    "./core": "./src/index.js",
+    "./web": "./src/webcomponent.js",
+    "./vue": "./src/vue/useFeatureToggle.js",
+    "./vue/ShowFeature.vue": "./src/vue/ShowFeature.vue",
+    "./react": "./src/react/useFeatureToggle.js",
+    "./react/ShowFeature": "./src/react/ShowFeature.jsx"
+  },
+  "bin": {
+    "show-feature": "./bin/show-feature.js"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "cli": "node bin/show-feature.js --key=weekday"
+  },
+  "keywords": [
+    "feature-toggle",
+    "date-flags",
+    "component-toggle",
+    "luxon",
+    "cli",
+    "esm",
+    "react",
+    "vue",
+    "webcomponent"
+  ],
+  "homepage": "https://github.com/SirKitts/show-feature",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirKitts/show-feature.git"
+  },
+  "dependencies": {
+    "luxon": "^3.6.1",
+    "minimist": "^1.2.8"
+  },
+  "devDependencies": {
+    "rollup": "^2.79.2",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
